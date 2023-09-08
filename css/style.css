@@ -90,6 +90,7 @@ body main .profile-text a:hover {
 }
 @media screen and (max-width: 400px) {
   body main {
+    padding: 3% 1% 5%;
     width: 95%;
   }
 }/*# sourceMappingURL=style.css.map */
