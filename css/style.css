@@ -45,20 +45,30 @@ body main .profile-text {
   padding: 1%;
 }
 body main .profile-text h2 {
-  text-align: center;
   letter-spacing: 2px;
   margin-bottom: 10px;
+  font-size: 24px;
+}
+body main .profile-text h3 {
+  font-size: 18px;
 }
 body main .profile-text p {
   letter-spacing: 1px;
   margin-bottom: 10px;
+  font-size: 16px;
+}
+body main .profile-text .currentTimeInMillSec {
+  margin-bottom: 20px;
 }
 body main .profile-text a {
   letter-spacing: 1px;
   transition: 0.5s;
+  padding: 0.7rem;
+  background-color: #320543;
+  border-radius: 0.3rem;
 }
 body main .profile-text a:hover {
-  color: orangered;
+  background-color: #064853;
 }
 
 @media screen and (max-width: 910px) {

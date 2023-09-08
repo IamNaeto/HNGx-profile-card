@@ -48,19 +48,29 @@ body{
             padding: 1%;
 
             h2{
-                text-align: center;
                 letter-spacing: 2px;
                 margin-bottom: 10px;
+                font-size: 24px;
+            }
+            h3{
+                font-size: 18px;
             }
             p{
                 letter-spacing: 1px;
                 margin-bottom: 10px;
+                font-size: 16px;
+            }
+            .currentTimeInMillSec{
+                margin-bottom: 20px;
             }
             a{
                 letter-spacing: 1px;
                 transition: 0.5s;
+                padding: 0.7rem;
+                background-color: #320543;
+                border-radius: 0.3rem;
                 &:hover{
-                    color: orangered;
+                    background-color: #064853;
                 }
             }
         }
