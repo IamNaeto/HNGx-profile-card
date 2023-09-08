@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNGX Profile Card</title>
+    <link rel="stylesheet" href="./css/style.scss">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+</head>
+<body>
+    <main>
+        <div class="profile-pix">
+            <img src="img/IMG_20230518_022723_.jpg" alt="Charles Obimnaeto Egesionu" data-testid="slackDisplayImage">
+        </div>
+        <div class="profile-text">
+            <h2>HNGx Profile Card</h2>
+
+            <h4>Slack User Name:</h4>
+            <p data-testid="slackUserName">Charles Obimnaeto Egesionu</p>
+
+            <h4>Track:</h4>
+            <p data-testid="myTrack">Frontend (React)</p>
+
+            <h4>Current Day:</h4>
+            <p class="currentDay" data-testid="currentDayOfTheWeek"></p>
+
+            <h4>Current UTC Time:</h4>
+            <p class="currentTime"></p>
+
+            <h4>Current UTC Time (Milliseconds):</h4>
+            <p class="currentTimeInMillSec" data-testid="currentUTCTime"></p>
+
+            <a href="" data-testid="githubURL"><b>Github URL  <i class="fa fa-github"></i></b></a>
+
+        </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
